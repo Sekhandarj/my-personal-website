@@ -38,7 +38,7 @@ function mainHeader(title){
     h3.innerText = title
     h3.id = title
     h3.style.color = 'black'
-    h3.style.fontFamily = 'Papyruss'
+    h3.style.fontFamily = 'Papyrus'
 }
 
 mainHeader('To Do List')
