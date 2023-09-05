@@ -21,3 +21,13 @@ function buildToDo(todo){
 function handleDelete(e){
     e.target.parentNode.remove()
 }
+
+function changeDay(day){
+let h4 = document.querySelector('h4')
+h4.innerText = day
+h4.id = day
+h4.className = 'title'
+h4.style.color = 'green'
+}
+
+changeDay('Tuesday')
