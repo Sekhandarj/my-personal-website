@@ -38,7 +38,14 @@ function mainHeader(title){
     h3.innerText = title
     h3.id = title
     h3.style.color = 'black'
-    h3.style.fontFamily = 'Papyrus'
+    h3.style.fontFamily = 'Papyruss'
 }
 
 mainHeader('To Do List')
+
+document.querySelector('#alert').addEventListener(
+    'click', alertMe)
+
+    function alertMe(){
+        alert("idk what to do with this button yet")
+    }
