@@ -28,6 +28,17 @@ h4.innerText = day
 h4.id = day
 h4.className = 'title'
 h4.style.color = 'green'
+h4.style.fontFamily = 'Apple Chancery'
 }
 
 changeDay('Tuesday')
+
+function mainHeader(title){
+    let h3 = document.querySelector('h3')
+    h3.innerText = title
+    h3.id = title
+    h3.style.color = 'black'
+    h3.style.fontFamily = 'Papyrus'
+}
+
+mainHeader('To Do List')
