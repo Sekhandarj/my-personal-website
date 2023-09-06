@@ -27,11 +27,11 @@ let h4 = document.querySelector('h4')
 h4.innerText = day
 h4.id = day
 h4.className = 'title'
-h4.style.color = 'green'
+h4.style.color = 'red'
 h4.style.fontFamily = 'Apple Chancery'
 }
 
-changeDay('Tuesday')
+changeDay('Wednesday')
 
 function mainHeader(title){
     let h3 = document.querySelector('h3')
@@ -44,8 +44,6 @@ function mainHeader(title){
 mainHeader('To Do List')
 
 document.querySelector('#alert').addEventListener(
-    'click', alertMe)
+    'click', () => alert('idk what to do with this button yet'))
 
-    function alertMe(){
-        alert("idk what to do with this button yet")
-    }
+  
